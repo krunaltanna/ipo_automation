@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Pytest",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "bulk_apply.py",
+      "args": [
+        "-n", "4",              
+        "--reruns", "1",           
+        "--maxfail=1",             
+        "-s"                       
+      ],
+      "console": "integratedTerminal"
+    }
+  ]
+}
